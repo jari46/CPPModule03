@@ -8,6 +8,9 @@ ScavTrap::ScavTrap() {
 ScavTrap::ScavTrap(std::string name)
 	: ClapTrap(name) {
 	std::cout << "\nScavTrap: My Constructor called" << std::endl;
+	_hitPoint = 100;
+	_energyPoint = 50;
+	_attackDamage = 20;
 	displayInfo();
 };
 
